@@ -15,17 +15,17 @@ public class Incre_DecreOrder {
      */
     public static void main(String[] args) {
         
-       int value =10;
+       int value =1;
        value ++;
-       System.out.println("First: " + value);
-       System.out.println("Second: " + value);
-       System.out.println("Third: " + value);
-       System.out.println("Fourh: " + (++value));
+       System.out.println("1st: " + value);
+       System.out.println("2nd: " + value);
+       System.out.println("3rd: " + value);
+       System.out.println(": " + (++value));
        
-       int value2=1;
+       int value2=5;
        ++value;
        value ++;
-       System.out.print("First: " + value2);
+       System.out.print("1st: " + value2);
        
        
        

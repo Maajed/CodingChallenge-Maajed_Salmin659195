@@ -18,13 +18,13 @@ public class Overriding {
      */
     public static void main(String[] args) {
         Random dice = new Random();
-        int roll1 = dice.nextInt();
-        int roll2 = dice.nextInt(101);
-        int roll3 = dice.nextInt(51) + 50;
+        int r1 = dice.nextInt();
+        int r2 = dice.nextInt(5);
+        int r3 = dice.nextInt(10+ 30);
 
-        System.out.println("First roll: " + roll1);
-        System.out.println("Second roll: " + roll2);
-        System.out.println("Third roll: " + roll3);
+        System.out.println("1st roll: " + r1);
+        System.out.println("2nd roll: " + r2);
+        System.out.println("3rd roll: " + r3);
         // TODO code application logic here
     }
     

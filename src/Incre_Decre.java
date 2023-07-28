@@ -14,21 +14,21 @@ public class Incre_Decre {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int value = 4;
-        
+        int value = 10;
+        //Increment
         value = value +1;
-        System.out.println("First Increment: " + value);
+        System.out.println("1st Increment: " + value);
         value+=1;
-        System.out.println("Second Increment: " + value);
+        System.out.println("2nd Increment: " + value);
         value++;
-        System.out.println("Third Increment: " + value);
+        System.out.println("3rd Increment: " + value);
+        value+=1;
+        //Decrement
+        System.out.println("1st Decrement: " + value);
         value-=1;
-        
-        System.out.println("First Decrement: " + value);
-        value-=1;
-        System.out.println("Second Decrement: " + value);
+        System.out.println("2nd Decrement: " + value);
         value--;
-        System.out.println("Third Decrement: " + value);
+        System.out.println("3rd Decrement: " + value);
         
         
         

@@ -14,10 +14,10 @@ public class ArrayChallenge {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String[] orderIds = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+        String[] orderIds = {"A111", "B222", "C333", "D444", "E555", "F666", "G777", "H888"};
 
         for (String items : orderIds) {
-            if (items.startsWith("B")) {
+            if (items.startsWith("H")) {
                 System.out.println(items);
             }
         }

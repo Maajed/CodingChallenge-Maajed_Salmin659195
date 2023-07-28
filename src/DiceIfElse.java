@@ -18,9 +18,9 @@ public class DiceIfElse {
      */
     public static void main(String[] args) {
         Random dice = new Random();
-        int r1 = dice.nextInt(10) + 1;
-        int r2 = dice.nextInt(10) + 1;
-        int r3 = dice.nextInt(10) + 1;
+        int r1 = dice.nextInt(5 + 1);
+        int r2 = dice.nextInt(6 + 1);
+        int r3 = dice.nextInt(7 + 1);
         int total = r1 + r2 + r3;
 
         System.out.println("Dice roll: " + r1 + " +" + r2 + " + " + r3);

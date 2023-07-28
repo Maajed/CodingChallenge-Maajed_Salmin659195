@@ -17,21 +17,21 @@ public class ArrayClear {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String[] pallets = { "B14", "A11", "B12", "A13" };
+        String[] idnumbers = { "AB11", "BC22", "DE33", "4" };
 
         System.out.println("");
 
-        System.out.println("Before: " + pallets[0].toLowerCase());
+        System.out.println("Before: " + idnumbers[0].toLowerCase());
 
-        Arrays.fill(pallets, 0, 2, null);
+        Arrays.fill(idnumbers, 0, 2, null);
 
-        if (pallets[0] != null) {
-            System.out.println("After: " + pallets[0].toLowerCase());
+        if (idnumbers[0] != null) {
+            System.out.println("After: " + idnumbers[0].toLowerCase());
         }
 
-        System.out.println("Clearing 2 ... count: " + pallets.length);
-        for (String pallet : pallets) {
-            System.out.println("-- " + pallet);
+        System.out.println("Clearing 2 ... count: " + idnumbers.length);
+        for (String idnumber : idnumbers) {
+            System.out.println("-- " + idnumber);
         }
     }
     

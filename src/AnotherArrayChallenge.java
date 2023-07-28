@@ -21,8 +21,8 @@ public class AnotherArrayChallenge {
         String[] orderIDs = new String[5];
 
         for (int i = 0; i < orderIDs.length; i++) {
-            int prefixValue = r.nextInt(70 - 65) + 65;
-            char prefix = (char) prefixValue;
+            int n = r.nextInt(70 - 65) + 65;
+            char prefix = (char) n;
             String suffix = String.format("%03d", r.nextInt(1000));
 
             orderIDs[i] = Character.toString(prefix) + suffix;
